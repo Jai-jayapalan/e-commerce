@@ -5,9 +5,9 @@ import imageProduct4 from './assets/images/4.png'
 import imageProduct5 from './assets/images/5.png' 
 import imageProduct6 from './assets/images/6.png' 
 import imageProduct7 from './assets/images/7.png' 
-import imageProduct8 from './assets/images/8.png' 
+import imageProduct8 from './assets/images/8.png'
 
-export const products = [
+const Products = [
     {
         id: 1,
         name: 'Hertfoid Upholstered Chair',
@@ -73,3 +73,5 @@ export const products = [
         slug: 'stephanny-275-wide-tufted-armchair'
     },
 ];
+
+export default Products;
